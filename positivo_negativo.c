@@ -7,7 +7,7 @@ int main(){
     sleep(2);
     
   int num;
-  printf("Digite um número: """);
+  printf("Digite um número: ");
     scanf("%d",&num);
    if (num > 0)
    {
