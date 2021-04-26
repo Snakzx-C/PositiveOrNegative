@@ -1,1 +1,1 @@
-# Programa que descobre se o número digitado é negativo ou negativo
+# Programa que descobre se o número digitado é negativo ou positivo
