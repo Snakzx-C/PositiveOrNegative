@@ -1,25 +1,30 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <stdio.h>       // inculsão 
+#include <stdlib.h>      //    de
+#include <unistd.h>      //  bibliotecas 
+
+//Coded by SN4Kx00!! slovac
 
 int main(){
-    system("clear");
-    printf("Executando Programa...\n\n");
-    sleep(2);
-    
-  int num;
-  printf("Digite um número: ");
-    scanf("%d",&num);
-   if (num > 0)
-   {
-       printf("O número é positivo\n\n");
-   }
-   else
-   {
-       printf("O número é negativo\n\n");
-   }
-   
-  printf("Encerrando Programa...\n\n");
-  sleep(2);
+  system("clear"); //limpa o console
 
-    return 0;
+  int num; //declaro a variavel (num)
+  printf("Digite um número: "); //imprimo o texto escolhido na tela (sujeito a modificações ou inserções)
+  scanf("%d", &num); // inserção de texto
+
+  if (num == 0){
+      printf("o número é neutro\n");
+  }
+  else
+  {
+    if (num > 0)
+    {
+      printf("o número é positivo\n");
+    }
+    else
+    {
+      printf("o número é negativo\n");
+    }
+    
+  }
+
 }
